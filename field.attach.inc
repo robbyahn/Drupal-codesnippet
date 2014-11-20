@@ -1,6 +1,8 @@
 Drupal-codesnippet
 ==================
 
+/modules/field/field.attach.inc
+
   /* patch https://www.drupal.org/files/issues/field_attach_debug.patch */
   $invalid_instances = array();
   foreach ($instances as $key => $instance) {
